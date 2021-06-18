@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+		.centered {
+		position: absolute;
+		margin-top:-450px;
+		margin-left:600px;
+		font-size:25px;
+		padding:25px;
+		font-family: "Lucida Console", "Courier New", monospace;
+		color:black;
+		}
+		a {
+		text-decoration: none;
+		}
+
+		nav {
+		font-family: monospace;
+		display:block;
+		margin-top:0px|important;
+		}
+
+		ul {
+		background: darkorange;
+		list-style: none;
+		margin-top:0px;
+		padding-left: 0;
+		font-size:15px;
+		}
+
+		li {
+		color: #fff;
+		background: darkorange;
+		display: block;
+		float: left;
+		padding: 1rem;
+		position: relative;
+		text-decoration: none;
+		transition-duration: 0.5s;
+		}
+  
+		li a {
+		color: #fff;
+		text-decoration:none;
+		}
+
+		li:hover,
+		li:focus-within {
+		background: red;
+		cursor: pointer;
+		}
+
+		li:focus-within a {
+		outline: none;
+		}
+
+		ul li ul {
+		background: orange;
+		visibility: hidden;
+		opacity: 0;
+		min-width: 5rem;
+		position: absolute;
+		transition: all 0.5s ease;
+		left: 0;
+		display: none;
+		text-decoration:none;
+		}
+
+		ul li:hover > ul,
+		ul li:focus-within > ul,
+		ul li ul:hover,
+		ul li ul:focus {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		}
+
+		ul li ul li {
+		clear: both;
+		width: 100%;
+		}	
+		.one{
+		padding-left:1203px;
+		padding-bottom:33.5px;
+		margin-left:269px;
+		margin-top:-49.5px;
+		}
+		.one:hover{
+		background: orange;}
+		div{
+		margin-left:70px;
+		display:block;
+		margin-top:-50px;
+		margin-bottom:30px;
+		font-size:30px;
+		}
+		.textLogo{
+		font-weight:bold;
+		text-align:center;
+		}
+		.dropdown{
+		margin-top:13px;
+		}
+		.p{
+		margin-top:10px;
+		margin-right:1000px;
+		margin-left:10px;
+		}
+		iframe{
+		margin-top:20px;
+		}
+		</style>
+
+
+  </head>
+  <body>
+	<div class="textLogo">Контакти</div>
+		<nav role="navigation">
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="magazin.html">Магазин</a>
+				<ul class="dropdown">
+					<li><a href="Kontakti.html">Контакти</a></li>
+					<li><a href="#">Sub-2</a></li>
+					<li><a href="#">Sub-3</a></li>
+				</ul>
+				</li>
+				<li><a href="deinosti.html">Дейности</a></li>
+				<li class="one"><a href="#"></a></li>
+			</ul>
+
+		</nav>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23471.53689444187!2d23.3259615!3d42.662582099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa845c14a0303f%3A0x968e1b14857aa12d!2sParadise%20Center!5e0!3m2!1sen!2sbg!4v1623063764979!5m2!1sen!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		<h3 class="centered">Контакти <br> Телефон за връзка: 085345645 <br> Местоположение: София, бул. Цариградско шосе <br> Email: fitness123@gmail.com</h3>
+  </body>
+
+</html>

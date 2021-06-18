@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+	nav {
+		font-family: monospace;
+		display:block;
+		margin-top:0px|important;
+		}
+
+		ul {
+		background: darkorange;
+		list-style: none;
+		margin-top:0px;
+		padding-left: 0;
+		font-size:15px;
+		}
+
+		li {
+		color: #fff;
+		background: darkorange;
+		display: block;
+		float: left;
+		padding: 1rem;
+		position: relative;
+		text-decoration: none!important;
+		transition-duration: 0.5s;
+		}
+  
+		li a {
+		color: #fff;
+		text-decoration:none;
+		}
+
+		li:hover,
+		li:focus-within {
+		background: red;
+		cursor: pointer;
+		}
+
+		li:focus-within a {
+		outline: none;
+		}
+
+		ul li ul {
+		background: orange;
+		visibility: hidden;
+		opacity: 0;
+		min-width: 5rem;
+		position: absolute;
+		transition: all 0.5s ease;
+		left: 0;
+		display: none;
+		text-decoration:none;
+		}
+
+		ul li:hover > ul,
+		ul li:focus-within > ul,
+		ul li ul:hover,
+		ul li ul:focus {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		}
+
+		ul li ul li {
+		clear: both;
+		width: 100%;
+		text-decoration:none;
+		}	
+		.one{
+		padding-left:1203px;
+		padding-bottom:33.5px;
+		margin-left:269px;
+		margin-top:-49.5px;
+		}
+		.one:hover{
+		background: orange;
+		}
+
+		div{
+		margin-left:70px;
+		display:block;
+		margin-top:100px;
+		margin-bottom:30px;
+		font-size:17px;
+		}
+		.textLogo{
+		font-weight:bold;
+		text-align:center;
+		}
+		.dropdown{
+		margin-top:16px;
+		}
+		
+body {margin:25px;}
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display:block;
+  margin-top:150px;
+}
+
+div.container {
+  text-align: center;
+  width:75%;
+  padding-bottom:10px;
+  margin-top:20px;
+  margin-left:35px;
+
+}
+div.polaroid2 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display:block;
+  margin-top:-290px;
+  margin-left:520px;
+}
+
+div.container2 {
+  text-align: center;
+  width:75%;
+  padding-bottom:10px;
+  margin-top:20px;
+  margin-left:40px;
+
+}
+div.polaroid3 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display:block;
+  margin-top:-290px;
+  margin-left:960px;
+}
+
+div.container3 {
+  text-align: center;
+  width:75%;
+  padding-bottom:10px;
+  margin-top:20px;
+  margin-left:40px;
+
+}
+div.polaroid4 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display:block;
+  margin-top:150px;
+}
+
+div.container4 {
+  text-align: center;
+  width:75%;
+  padding-bottom:10px;
+  margin-top:20px;
+  margin-left:35px;
+
+}
+div.polaroid5 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display:block;
+  margin-top:-290px;
+  margin-left:520px;
+}
+
+div.container5 {
+  text-align: center;
+  width:75%;
+  padding-bottom:10px;
+  margin-top:20px;
+  margin-left:40px;
+
+}div.polaroid6 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display:block;
+  margin-top:-290px;
+  margin-left:960px;
+}
+
+div.container6{
+  text-align: center;
+  width:75%;
+  padding-bottom:10px;
+  margin-top:20px;
+  margin-left:40px;
+
+}
+button{
+padding:9px;
+padding-left:30px;
+padding-right:30px;
+background-color:white;
+border-style: solid;
+border-width: 1px;
+border-color:orange;
+color:orange;
+}
+button:hover{
+background-color:orange;
+color:white;
+}
+</style>
+</head>
+<body>
+	<div class="textLogo">Фитнес-студио</div>
+		<nav role="navigation">
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="magazin.html">Магазин</a>
+				<ul class="dropdown">
+					<li><a href="Kontakti.html">Контакти</a></li>
+					<li><a href="#">Sub-2</a></li>
+					<li><a href="#">Sub-3</a></li>
+				</ul>
+				</li>
+				<li><a href="deinosti.html">Дейности</a></li>
+				<li class="one"><a href="#"></a>
+				</ul>
+		</nav>
+</div>
+<div class="polaroid">
+  <img src="lose.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p>Курс за отслабване</p>
+  <button>Запиши се</button>
+  </div>
+  </div>
+<div class="polaroid2">
+  <img src="cardio.jpg" alt="5 Terre" style="width:100%">
+  <div class="container2">
+  <p>Кардио Упражнения</p>
+  <button>Запиши се</button>
+  </div>
+</div>
+<div class="polaroid3">
+  <img src="pilates.jpg" alt="5 Terre" style="width:100%">
+  <div class="container3">
+  <p>Курс Пилатес</p>
+  <button>Запиши се</button>
+  </div>
+</div><div class="polaroid4">
+  <img src="zumba.jpg" alt="5 Terre" style="width:100%">
+  <div class="container4">
+  <p>Курс Зумба</p>
+  <button>Запиши се</button>
+  </div>
+</div><div class="polaroid5">
+  <img src="yoga.jpg" alt="5 Terre" style="width:100%">
+  <div class="container5">
+  <p>Йога тренировка</p>
+  <button>Запиши се</button>
+  </div>
+</div><div class="polaroid6">
+  <img src="fitbol.jpg" alt="5 Terre" style="width:100%">
+  <div class="container6">
+  <p>Тренировка с fitball</p>
+  <button>Запиши се</button>
+  </div>
+</div>
+</body>
+</html>

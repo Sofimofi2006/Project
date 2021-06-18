@@ -1,0 +1,293 @@
+<!Doctype html>
+<html>
+    <head>
+    <style>
+	nav {
+		font-family: monospace;
+		display:block;
+		margin-top:0px|important;
+		}
+
+		ul {
+		background: darkorange;
+		list-style: none;
+		margin-top:0px;
+		padding-left: 0;
+		font-size:15px;
+		}
+
+		li {
+		color: #fff;
+		background: darkorange;
+		display: block;
+		float: left;
+		padding: 1rem;
+		position: relative;
+		text-decoration: none!important;
+		transition-duration: 0.5s;
+		}
+  
+		li a {
+		color: #fff;
+		text-decoration:none;
+		}
+
+		li:hover,
+		li:focus-within {
+		background: red;
+		cursor: pointer;
+		}
+
+		li:focus-within a {
+		outline: none;
+		}
+
+		ul li ul {
+		background: orange;
+		visibility: hidden;
+		opacity: 0;
+		min-width: 5rem;
+		position: absolute;
+		transition: all 0.5s ease;
+		left: 0;
+		display: none;
+		text-decoration:none;
+		}
+
+		ul li:hover > ul,
+		ul li:focus-within > ul,
+		ul li ul:hover,
+		ul li ul:focus {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		}
+
+		ul li ul li {
+		clear: both;
+		width: 100%;
+		text-decoration:none;
+		}	
+		.one{
+		padding-left:1203px;
+		padding-bottom:33.5px;
+		}
+		.one:hover{
+		background: orange;
+		}
+
+		div{
+		margin-left:70px;
+		display:block;
+		margin-top:100px;
+		margin-bottom:30px;
+		font-size:17px;
+		}
+		.textLogo{
+		font-weight:bold;
+		text-align:center;
+		}
+		.dropdown{
+		margin-top:16px;
+		}
+	  .title {
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+			margin-left:50px;
+        }
+        
+        #main {
+            border-style: solid;
+            border-radius: 5%;
+            padding: 15px;
+            width: 300px;
+			margin-top: 100px;
+        }
+		
+		#main1 {
+            border-style: solid;
+            border-radius: 5%;
+            padding: 15px;
+            width: 300px;
+			margin-top: -423px;
+			margin-left: 500px;
+        }
+		
+		#main2 {
+            border-style: solid;
+            border-radius: 5%;
+            padding: 15px;
+            width: 300px;
+			margin-top: -423px;
+			margin-left: 950px;
+        }
+		
+		#main3 {
+            border-style: solid;
+            border-radius: 5%;
+            padding: 15px;
+            width: 300px;
+			margin-top: 100px;
+        }
+		
+		#main4 {
+            border-style: solid;
+            border-radius: 5%;
+            padding: 15px;
+            width: 300px;
+			margin-top: -426px;
+			margin-left: 500px;
+
+        }
+		
+		#main5 {
+            border-style: solid;
+            border-radius: 5%;
+            padding: 15px;
+            width: 300px;
+			margin-top: -426px;
+			margin-left: 950px;
+        }
+
+        .img1 {
+            border-radius: 6%;
+            width: 300px;
+            height: 200px;
+            margin-top: 9px;
+        }
+        
+        .class5 {
+            margin-bottom: -36px;
+
+        }
+        div,
+        span {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: gray;
+        }
+        
+        span {
+            display: inline-block;
+            margin-left: 15px;
+            margin-right: 34px;
+            margin-bottom: 5px;
+        }
+        
+        .img2 {
+            display: block;
+            margin-left: 230px;
+            margin-top: -40px;
+            margin-bottom: -30px;
+            width: 60px;
+            height: 60px;
+        }
+        
+        button {
+            border: 1px solid orange;
+			background-color:white;
+			color:orange;
+			padding:100x;
+        }
+        button:hover{
+		color:white;
+		background-color:orange;
+		}
+        .class5 {
+            float: right;
+            font-weight: 200;
+            margin-right: 0px;
+        }
+        
+        .class4 {
+            margin-top: 2px;
+            padding: 7px;
+        }
+	
+	</style>
+	<body>
+	<div class="textLogo">Фитнес-студио</div>
+		<nav role="navigation">
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="magazin.html">Магазин</a>
+				<ul class="dropdown">
+					<li><a href="Kontakti.html">Контакти</a></li>
+					<li><a href="#">Sub-2</a></li>
+					<li><a href="#">Sub-3</a></li>
+				</ul>
+				</li>
+				<li><a href="deinosti.html">Дейности</a></li>
+				<li class="one"><a href="#"></a>
+				</ul>
+
+		</nav>
+	 <div id="main">
+        <img class="img1" src="dumbbel.jpg" alt="">
+        <h1 class="title">Метална гира</h1>
+        <div class="class1"></div>
+        <div class="class2">&#8505; Може да се променят килограмите чрез смяна на дисковете</div>
+        <div class="class3">Цена:64лв</div>
+        <hr>
+        <button class="class4">Купи</button>
+        <span class="class5">Last update:10.05.2021.</span>
+    </div>
+	
+	 <div id="main1">
+        <img class="img1" src="vuje.jpeg" alt="">
+        <h1 class="title">Въже за скачане</h1>
+        <div class="class1"></div>
+        <div class="class2">&#8505; Перфектното упражнение за крака и много забавление за семейството</div>
+        <div class="class3">Цена:15лв</div>
+        <hr>
+        <button class="class4">Купи</button>
+        <span class="class5">Last update:10.05.2021.</span>
+    </div>
+	
+	<div id="main2">
+        <img class="img1" src="veloergometur.jpg" alt="">
+        <h1 class="title">Велоаргометър</h1>
+        <div class="class1"></div>
+        <div class="class2">&#8505; Велоаргометърът е перфектния начин за тренировка вкъщи </div>
+        <div class="class3">Цена:200лв</div>
+        <hr>
+        <button class="class4">Купи</button>
+        <span class="class5">Last update:10.05.2021.</span>
+    </div>
+	
+	<div id="main3">
+        <img class="img1" src="lastik.jpg" alt="">
+        <h1 class="title">Ластик за тренировки</h1>
+        <div class="class1"></div>
+        <div class="class2">&#8505; Много добро упражнение за увеличаване на мускулната сила на ръцете </div>
+        <div class="class3">Цена:10лв</div>
+        <hr>
+        <button class="class4">Купи</button>
+        <span class="class5">Last update:10.05.2021.</span>
+    </div>
+	
+	<div id="main4">
+        <img class="img1" src="bosu.jpg" alt="">
+        <h1 class="title">Bosu топка</h1>
+        <div class="class1"></div>
+        <div class="class2">&#8505; Bosu топката е най-иновационно упражнение за подобряване на баланс </div>
+        <div class="class3">Цена:15лв</div>
+        <hr>
+        <button class="class4">Купи</button>
+        <span class="class5">Last update:10.05.2021.</span>
+    </div>
+	
+	<div id="main5">
+        <img class="img1" src="med.jpg" alt="">
+        <h1 class="title">Медицинска топка</h1>
+        <div class="class1"></div>
+        <div class="class2">&#8505; Медицинската топка е много добро упражнение за ръце и за координация </div>
+        <div class="class3">Цена:15лв</div>
+        <hr>
+        <button class="class4">Купи</button>
+        <span class="class5">Last update:10.05.2021.</span>
+    </div>
+	
+	</body>
+	</html>

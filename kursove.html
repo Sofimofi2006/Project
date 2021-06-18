@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+	nav {
+		font-family: monospace;
+		display:block;
+		margin-top:0px|important;
+		}
+
+		ul {
+		background: darkorange;
+		list-style: none;
+		margin-top:0px;
+		padding-left: 0;
+		}
+
+		li {
+		color: #fff;
+		background: darkorange;
+		display: block;
+		float: left;
+		padding: 1rem;
+		position: relative;
+		text-decoration: none!important;
+		transition-duration: 0.5s;
+		}
+  
+		li a {
+		color: #fff;
+		}
+
+		li:hover,
+		li:focus-within {
+		background: red;
+		cursor: pointer;
+		}
+
+		li:focus-within a {
+		outline: none;
+		}
+
+		ul li ul {
+		background: orange;
+		visibility: hidden;
+		opacity: 0;
+		min-width: 5rem;
+		position: absolute;
+		transition: all 0.5s ease;
+		left: 0;
+		display: none;
+		}
+
+		ul li:hover > ul,
+		ul li:focus-within > ul,
+		ul li ul:hover,
+		ul li ul:focus {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		}
+
+		ul li ul li {
+		clear: both;
+		width: 100%;
+		}	
+		.one{
+		padding-left:1298px;
+		padding-bottom:31px;
+		}
+		.one:hover{
+		background: orange;
+		}
+
+		div{
+		margin-left:70px;
+		display:block;
+		margin-top:100px;
+		margin-bottom:30px;
+		font-size:17px;
+		}
+		.textLogo{
+		font-weight:bold;
+		text-align:center;
+		}
+		.dropdown{
+		margin-top:13px;
+		}
+
+body {margin:25px;}
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding-right:-100px;
+  display:block;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  width:75%;
+
+}
+button{
+padding:2px;
+background-color:orange;
+}
+button:hover{
+background-color:#FF8C00;
+}
+body {margin:25px;}
+div.polaroid1 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding-right:-100px;
+  display:block;
+  margin-top:-290px;
+  margin-left:450px;
+}
+
+div.container1 {
+  text-align: center;
+  padding: 10px 20px;
+  width:75%;
+
+}
+</style>
+</head>
+<body>
+	<div class="textLogo">Фитнес-студио</div>
+		<nav role="navigation">
+			<ul>
+				<li class="one"><a href="#"></a>
+				<li><a href="index.html">One</a></li>
+				<li><a href="magazin.html">Two</a>
+				<ul class="dropdown">
+					<li><a href="#">one</a></li>
+					<li><a href="#">two</a></li>
+					<li><a href="#">three</a></li>
+				</ul>
+				</li>
+				<li><a href="#">Three</a></li>
+				</ul>
+		</nav>
+<div class="polaroid">
+  <img src="lose.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p>Курс за отслабване</p>
+  <button>Запиши се сега</button>
+  </div>
+</div>
+<div class="polaroid1">
+  <img src="lose.jpg" alt="5 Terre" style="width:100%">
+  <div class="container1">
+  <p>Курс за отслабване</p>
+  <button>Запиши се сега</button>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="cardio.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+  <p>Тренировка кардио</p>
+  <button>Запиши се сега</button>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>

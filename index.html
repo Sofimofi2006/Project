@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+
+		img{
+		width:99%;
+		}
+		a {
+		text-decoration: none;
+		color:orange;
+		}
+		a:hover{
+		color:white;
+		}
+		nav {
+		font-family: monospace;
+		display:block;
+		margin-top:-20px;
+		}
+
+		ul {
+		background: darkorange;
+		list-style: none;
+		margin-top:0px;
+		padding-left: 0;
+		font-size:15px;
+		}
+
+		li {
+		color: #fff;
+		background: darkorange;
+		display: block;
+		float: left;
+		padding: 1rem;
+		position: relative;
+		text-decoration: none;
+		transition-duration: 0.5s;
+		}
+  
+		li a {
+		color: #fff;
+		}
+
+		li:hover,
+		li:focus-within {
+		background: red;
+		cursor: pointer;
+		}
+
+		li:focus-within a {
+		outline: none;
+		}
+
+		ul li ul {
+		background: orange;
+		visibility: hidden;
+		opacity: 0;
+		min-width: 5rem;
+		position: absolute;
+		transition: all 0.5s ease;
+		left: 0;
+		display: none;
+		}
+
+		ul li:hover > ul,
+		ul li:focus-within > ul,
+		ul li ul:hover,
+		ul li ul:focus {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		}
+
+		ul li ul li {
+		clear: both;
+		width: 100%;
+		}	
+		.one{
+		padding-left:1203px;
+		padding-bottom:33.5px;
+		}
+		.one:hover{
+		background: orange;}
+		div{
+		margin-left:70px;
+		display:block;
+		margin-top:-50px;
+		margin-bottom:30px;
+		font-size:30px;
+		}
+		.textLogo{
+		font-weight:bold;
+		text-align:center;
+		margin-top:10px;
+		}
+		.dropdown{
+		margin-top:16px;
+		}
+		.centered {
+		position: absolute;
+		margin-top:380px;
+		margin-left:600px;
+		text-align:center;
+		font-size:50px;
+		padding:10px;
+		font-family: "Lucida Console", "Courier New", monospace;
+		color:white;
+		}
+		.centered1 {
+		position: absolute;
+		margin-top:320px;
+		margin-left:350px;
+		text-align:center;
+		font-size:50px;
+		padding:10px;
+		font-family: "Lucida Console", "Courier New", monospace;
+		color:white;
+		}		
+		.centered2 {
+		position: absolute;
+		margin-top:440px;
+		margin-left:450px;
+		text-align:center;
+		font-size:70px;
+		padding:10px;
+		font-family: "Lucida Console", "Courier New", monospace;
+		color:white;
+		}
+		.headingp{
+		font-size:20px;
+		margin-top:130px;
+		padding-left:210px;
+		margin-bottom:30px;
+		}
+		.p{
+		padding-right:500px;
+		padding-left:100px;
+		margin-top:-310px;
+		display:block;
+		margin-right:100px;
+		margin-bottom:100px;
+		}
+		.newimg{
+		width:40%;
+		margin-top:-90px;
+		margin-left:800px;
+		margin-bottom:100px;
+		}
+		.fitness1{
+		height:800px;
+		}
+		.textimg21{
+		margin-top:-450px;
+		margin-left:550px;
+		color:white;
+		font-size:30px;
+		font-family:"Papirus";
+		}
+		button{
+		margin-left:670px;
+		padding:10px;
+		color:orange;
+		border:solid 1px orange;
+		background-color:white;
+		text-decoration:none;
+		}
+		button:hover{
+		background-color:orange;
+		color:white;
+		
+		}
+		
+		</style>
+	
+	</head>
+	<body>
+	<div class="textLogo">Фитнес-студио</div>
+		<nav role="navigation">
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="magazin.html">Магазин</a>
+				<ul class="dropdown">
+					<li><a href="Kontakti.html">Контакти</a></li>
+					<li><a href="#">Sub-2</a></li>
+					<li><a href="#">Sub-3</a></li>
+				</ul>
+				</li>
+				<li><a href="deinosti.html">Дейности</a></li>
+				<li class="one"><a href="#"></a>
+				</ul>
+
+		</nav>
+		<h4 class="centered1">Тренирай и се забавлявай</h4>
+		<h3 class="centered" id="centered"> с нас във</h3>
+		<h4 class="centered2">Фитнес-студио</h4>
+		<img src="fitness.jpg" alt="">
+		<p class="headingp">Защо да изберете нас</p>
+		<img class="newimg" src="newimg.jpg" alt="">
+		<p class="p">Мисията ни далеч не е само да сме „най-добрите“, защото знаем, че дори и най-успешните<br> атлети рано или късно биват измествани от други. Нашите клубове не целят да са<br> най-многолюдни, нито пък тренировките ни най-изтощителни.   
+
+Истинската ни цел<br> е много по-проста – да правим така, че все повече българи да се движат активно.<br> Тъжната статистика показва, че едва 9% от българите спортуват редовно, а времето,<br> което отделят за активно движение, не е повече от 2 часа общо в седмицата.
+
+<br>Искаме да променим именно това.
+
+</p>
+		<img class="fitness1" src="fitness1.jpg" alt="">
+		<p class="textimg21">Преоткрий своята програма</p>
+		<button><a href="Deinosti.html">Избери курс</a></button>
+	</body>
+</html>
